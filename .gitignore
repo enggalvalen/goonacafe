@@ -1,0 +1,10 @@
+# Kredensial database hosting: jangan pernah ikut ke GitHub
+includes/db-local.php
+
+# File sistem
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Berkas tes
+*.log

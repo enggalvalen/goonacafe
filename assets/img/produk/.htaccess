@@ -1,0 +1,10 @@
+# Folder foto produk (bisa diisi dari admin): jangan jalankan script apa pun di sini
+<FilesMatch "\.(php|phtml|php[0-9]|phar|pl|py|cgi)$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
